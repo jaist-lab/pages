@@ -34,7 +34,7 @@ title: SDLCF Research page
 |**VPN software ** |||
 |wireGuard | [vpn access]()|||
 |**CI/CD software ** |||
-|ArgoCD | [http://172.16.100.131:32443](https://172.16.100.131:32443|admin/jaileon02||
+|ArgoCD | [http://172.16.100.131:32443](https://172.16.100.131:32443)|admin/jaileon02||
 ---
 
 ## Servers
