@@ -33,8 +33,8 @@ title: SDLCF Research page
 |Ceph Dashboard | [https://172.16.100.11:8443](https://172.16.100.11:8443)|admin/jaileon02|https!|
 |**VPN software ** |||
 |wireGuard | [vpn access]()|||
-
-
+|**CI/CD software ** |||
+|ArgoCD | [http://172.16.100.131:32443](https://172.16.100.131:32443|admin/jaileon02||
 ---
 
 ## Servers

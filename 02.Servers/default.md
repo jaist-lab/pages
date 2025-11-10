@@ -1,19 +1,7 @@
 ---
 title: Servers
 ---
-# Research
-
----
-
-## Project
-
-### NEDO
-- [「ポスト5G情報通信システム基盤強化研究開発事業／ポスト5G情報通信システムの開発（委託）」に係る実施体制の決定について(2023/12/05)](https://www.nedo.go.jp/koubo/IT3_100292.html)
-- [超高効率AI計算基盤の研究開発](https://www.meti.go.jp/policy/mono_info_service/joho/post5g/231205_gaiyou.pdf)
-
-### Press release
-- [PFN、IIJ、JAISTが共同で超高効率AI計算基盤の研究開発を開始(2023/12/05)](https://www.jaist.ac.jp/whatsnew/press/2023/12/05-1.html)
-- [直接水冷方式の高密度AIサーバおよびハイブリッド冷却データセンターによる 超高効率AI計算基盤技術の実証実験を開始(2025/09/11)](https://www.jaist.ac.jp/whatsnew/press/2025/09/11-1.html)
+# Servers
 
 ---
 
