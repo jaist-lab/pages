@@ -24,6 +24,7 @@ Sandbox Cluster → Prometheus (7日/Ceph) → Remote Write ↗
 ```
 
 [mermaid]
+
 graph LR
 
     subgraph "Sandbox Cluster (172.16.100.131)"
