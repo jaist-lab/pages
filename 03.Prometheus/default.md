@@ -23,7 +23,7 @@ Development Cluster → Prometheus (7日/Ceph) → Remote Write → anchor Prome
 Sandbox Cluster → Prometheus (7日/Ceph) → Remote Write ↗
 ```
 
-```mermaid
+[mermaid]
 graph LR
 
     subgraph "Sandbox Cluster (172.16.100.131)"
@@ -94,7 +94,8 @@ graph LR
     
     classDef exporter fill:#ffffcc
     class PNE1,PKS1,PDCGM1,DNE1,DKS1,DDCGM1,SNE1,SKS1,SDCGM1,ANE exporter
-```
+[/mermaid]
+
 
 ---
 
