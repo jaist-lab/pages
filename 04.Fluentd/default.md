@@ -47,7 +47,7 @@ graph TB
         end
         
         subgraph "Node Filesystem"
-            LOGS[/var/log/containers/*.log]
+            LOGS["/var/log/containers/*.log"]
         end
         
         APP1 --> LOGS
@@ -96,7 +96,7 @@ graph TB
     style OS fill:#e8f5e9
     style OSD fill:#f3e5f5
     style LOGS fill:#fff9c4
-    
+
 [/mermaid]
 
 
