@@ -96,6 +96,7 @@ graph TB
     style OS fill:#e8f5e9
     style OSD fill:#f3e5f5
     style LOGS fill:#fff9c4
+    
 [/mermaid]
 
 
