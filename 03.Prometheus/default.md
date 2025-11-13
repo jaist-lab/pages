@@ -15,7 +15,17 @@
 | Sandbox | sandbox-cluster | ローカル収集 | 7日 | 172.16.100.131 | Ceph RBD |
 | anchor | - | 長期保存 | 90日 | 172.16.200.200 | Local |
 
-### 1.3 アーキテクチャ
+
+### 1.3 アクセス先一覧
+
+| 環境 | Prometheus | Grafana | 認証情報 |
+|------|-----------|---------|---------|
+| Production | [http://172.16.100.101:32090](http://172.16.100.101:32090) | [http://172.16.100.101:32000](http://172.16.100.101:32000) | admin/jaist-prod-monitoring |
+| Development | [http://172.16.100.121:32090](http://172.16.100.121:32090) | [http://172.16.100.121:32000](http://172.16.100.121:32000 ) | admin/jaist-dev-monitoring |
+| Sandbox | [http://172.16.100.131:32090](http://172.16.100.131:32090) | [http://172.16.100.131:32000](http://172.16.100.131:32000) | admin/jaist-sandbox-monitoring |
+| anchor | [http://172.16.200.200:9090](http://172.16.200.200:9090) | [http://172.16.200.200:3000](http://172.16.200.200:3000) | admin/jaist-monitoring-2025 |
+
+### 1.4 アーキテクチャ
 
 ```
 Production Cluster → Prometheus (7日/Ceph) → Remote Write ↘
@@ -118,14 +128,5 @@ Ceph Monitor: 172.16.200.11-15:6789
 anchor: 172.16.200.200
 vessel: 管理サーバ
 ```
-
-### 2.3 アクセス先一覧
-
-| 環境 | Prometheus | Grafana | 認証情報 |
-|------|-----------|---------|---------|
-| Production | [http://172.16.100.101:32090](http://172.16.100.101:32090) | [http://172.16.100.101:32000](http://172.16.100.101:32000) | admin/jaist-prod-monitoring |
-| Development | [http://172.16.100.121:32090](http://172.16.100.121:32090) | [http://172.16.100.121:32000](http://172.16.100.121:32000 ) | admin/jaist-dev-monitoring |
-| Sandbox | [http://172.16.100.131:32090](http://172.16.100.131:32090) | [http://172.16.100.131:32000](http://172.16.100.131:32000) | admin/jaist-sandbox-monitoring |
-| anchor | [http://172.16.200.200:9090](http://172.16.200.200:9090) | [http://172.16.200.200:3000](http://172.16.200.200:3000) | admin/jaist-monitoring-2025 |
 
 ---
