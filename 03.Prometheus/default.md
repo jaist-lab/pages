@@ -123,7 +123,7 @@ vessel: 管理サーバ
 
 | 環境 | Prometheus | Grafana | 認証情報 |
 |------|-----------|---------|---------|
-| Production | http://172.16.100.101:32090 | http://172.16.100.101:32000 | admin/jaist-prod-monitoring |
+| Production | [http://172.16.100.101:32090](http://172.16.100.101:32090) | http://172.16.100.101:32000 | admin/jaist-prod-monitoring |
 | Development | http://172.16.100.121:32090 | http://172.16.100.121:32000 | admin/jaist-dev-monitoring |
 | Sandbox | http://172.16.100.131:32090 | http://172.16.100.131:32000 | admin/jaist-sandbox-monitoring |
 | anchor | http://172.16.200.200:9090 | http://172.16.200.200:3000 | admin/jaist-monitoring-2025 |
