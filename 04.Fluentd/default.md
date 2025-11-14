@@ -34,7 +34,7 @@ title: fluentd
 
 [mermaid]
 
-graph TB
+graph LR
     subgraph "Kubernetes Cluster (Production/Sandbox)"
         subgraph "各ノード"
             A[Container Logs<br>/var/log/containers/*.log]
@@ -78,5 +78,3 @@ graph TB
     style I fill:#fff9c4
 
 [/mermaid]
-
-
