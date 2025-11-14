@@ -33,6 +33,8 @@ title: fluentd
 #### Fluent Bit、Fluentd、OpenSearch の構成
 
 [mermaid]
+```mermaid
+
 graph TB
     subgraph "Kubernetes Cluster (vessel + nodes)"
         subgraph "logging namespace"
@@ -96,7 +98,7 @@ graph TB
     style OS fill:#e8f5e9
     style OSD fill:#f3e5f5
     style LOGS fill:#fff9c4
-
+```
 [/mermaid]
 
 
