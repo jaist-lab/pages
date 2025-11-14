@@ -34,7 +34,7 @@ title: fluentd
 
 [mermaid]
 
-graph LR
+graph TD
     subgraph "Kubernetes Cluster (Production/Sandbox)"
         subgraph "各ノード"
             A[Container Logs<br>/var/log/containers/*.log]
