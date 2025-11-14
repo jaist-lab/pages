@@ -80,20 +80,3 @@ graph TB
 [/mermaid]
 
 
-#### データフロー詳細図
-
-[mermaid]
-flowchart LR
-    A["Raw Log<br>{\"log\":\"Hello\"}"] --> B[Fluent Bit<br>Add K8s metadata]
-    B --> C["Enhanced Log<br>{<br>  log: 'Hello',<br>  kubernetes: {<br>    namespace: 'default',<br>    pod_name: 'app-123'<br>  }<br>}"]
-    C --> D[Forward Protocol<br>MessagePack binary]
-    D --> E[Fluentd<br>Parse & Transform]
-    E --> F["Formatted Log<br>{<br>  @timestamp: '2025-11-14...',<br>  log: 'Hello',<br>  kubernetes: {...}<br>}"]
-    F --> G[HTTP JSON]
-    G --> H[OpenSearch<br>Store & Index]
-    
-    style A fill:#ffebee
-    style C fill:#e3f2fd
-    style F fill:#e8f5e9
-    style H fill:#f3e5f5
-[/mermaid]
