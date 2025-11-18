@@ -37,6 +37,17 @@ title: SDLCF Research page
 |ArgoCD | [http://172.16.100.131:32443](https://172.16.100.131:32443)|admin/jaileon02||
 ---
 
+## iDRAC9 Server
+
+|IP|hostname|用途|
+|---|---|---|
+|**Servers and netowork** |||
+|150.65.146.102|r760xs1|SDLCFサーバ|
+|150.65.146.90 |r760xs2|SDLCFサーバ|
+|150.65.146.91 |r760xs3|SDLCFサーバ|
+|150.65.146.101|r760xs4|SDLCFサーバ|
+|150.65.146.93|r760xs5|SDLCFサーバ|
+
 ## Servers
 
 |IP|hostname|用途|
